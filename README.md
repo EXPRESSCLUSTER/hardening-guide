@@ -15,20 +15,20 @@ Configuring firewall so that open minimum ports.
 
 ## HTTPS
 
-Configuring ECX Manager to use HTTPS.
+Configuring ECX WebManager to use HTTPS.
 
 1. Get and install [OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_0_2p.exe) to all the member node in the cluster. Win32 OpenSSL is distributed at [here](https://slproweb.com/products/Win32OpenSSL.html).
 
-2. Create the certification file for WebManager (https) server.
+2. Create the certificate file for WebManager (https) server.
 
-3. Configure the cluster with referring [Reference Guide - P.161 WebManager tab](https://www.nec.com/en/global/prod/expresscluster/en/support/Windows/W40_RG_EN_02.pdf#page=161)
+3. Configure the cluster according to [Reference Guide - P.161 WebManager tab](https://www.nec.com/en/global/prod/expresscluster/en/support/Windows/W40_RG_EN_02.pdf#page=161)
 
 ## Password
 
-- ECX is ran as one of Windows services and the executing user name is "SYSTEM" which is built-in user.
+- ECX is ran as one of Windows services and the executing user name is "SYSTEM" which is built-in user account.
 There is no effect for ECX to change the password of "Administrator".
 
-- ECX configuration can have "user account" information for application execution in "application resource". When the password of the user account is changed on the operating system, ECX configuration need to be changed according to the password change.
+- ECX configuration can have "user account" information for application execution in "application resource". When the password of the user account is changed on the operating system, ECX configuration also need to be changed to mutch the new password.
 
 	[Reference Guide - P.605 Understanding application resources](https://www.nec.com/en/global/prod/expresscluster/en/support/Windows/W40_RG_EN_02.pdf#page=605) - P.610 Exec User Account (and around)
 
