@@ -20,7 +20,7 @@ Configuring ECX WebManager to use HTTPS.
 
 1. Get and install [OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_0_2p.exe) to all the member node in the cluster. Win32 OpenSSL is distributed at [here](https://slproweb.com/products/Win32OpenSSL.html).
 
-2. Create the certificate file for WebManager (https) server.
+2. Create the certificate file for WebManager (https) server. For more details, please refer to https://github.com/EXPRESSCLUSTER/Tips/blob/master/HTTPSconfiguration.md.
 
 3. Configure the cluster according to [Reference Guide - P.161 WebManager tab](https://www.nec.com/en/global/prod/expresscluster/en/support/Windows/W40_RG_EN_02.pdf#page=161)
 
