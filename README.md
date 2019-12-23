@@ -45,11 +45,9 @@ There is no effect for ECX to change the password of "Administrator".
 ECX of Data Mirroring configuration can be used with BitLocker.
 Note that Shared Disk configuration cannot.
 
-<!--
-## Encrypting communication
+## Network Encryption
 
 Configure L2TP over IPsec between member nodes in the cluster, then configure interconnect and mirror-connect of the cluster to use the L2 tunnel.
--->
 
 ----
 2018.11.06 1st issue	Miyamoto Kazuyuki
