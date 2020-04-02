@@ -44,6 +44,7 @@ There is no effect for ECX to change the password of "Administrator".
 #### BitLocker
 ECX of Data Mirroring configuration can be used with BitLocker.
 Note that Shared Disk configuration cannot.
+For more detail, please refer to [BitLocker](https://github.com/EXPRESSCLUSTER/BitLocker) page.
 
 ## Network Encryption
 
